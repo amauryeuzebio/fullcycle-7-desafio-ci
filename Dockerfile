@@ -1,6 +1,6 @@
 FROM golang:1.15rc1-alpine3.12 as builder
 
-MAINTAINER Amaury Euzebio amaury@a1tecnologia.info
+LABEL maintainer="Amaury Euzebio amaury@a1tecnologia.info"
 
 COPY ./src/sum /go/src/sum
 
